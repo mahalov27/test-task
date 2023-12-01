@@ -1,0 +1,39 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    @media (max-width: 420px) {
+      width: calc(100vw / 420 * 380);
+    }
+    @media (max-width: 360px) {
+      width: 328px;
+    }
+    input {
+      padding: 15.5px 16px;
+    }
+    .labelInput {
+      font-size: 12px;
+      color: var(--color-text-grey);
+      margin-left: 16px;
+      margin-bottom: 25px;
+    }
+    h2 {
+      margin-bottom: 14px;
+    }
+    .radioInputsList {
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+      margin-bottom: 47px;
+    }
+  }
+}

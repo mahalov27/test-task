@@ -1,0 +1,40 @@
+.inputFile {
+  display: flex;
+  input {
+    position: absolute;
+    top: -20px;
+    left: -100px;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    line-height: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  button {
+    background: transparent;
+    width: 83px;
+    height: 54px;
+    border: 1px solid var(--color-border-black);
+    border-radius: 4px 0 0 4px;
+    cursor: pointer;
+  }
+  p {
+    display: flex;
+    align-items: center;
+    width: 297px;
+    height: 54px;
+    border: 1px solid var(--color-border-grey);
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    color: var(--color-text-grey);
+    padding: 0 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .error {
+    border-color: #cb3d40;
+  }
+}

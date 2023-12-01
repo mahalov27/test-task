@@ -1,0 +1,15 @@
+.btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background: var(--color-bg-btn);
+  border-radius: 80px;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-color: var(--color-bg-btn-hover);
+  }
+  &:disabled{
+    background-color: var(--color-bg-btn-dіsabled);
+  }
+}

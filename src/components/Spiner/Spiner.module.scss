@@ -1,0 +1,13 @@
+.spiner{
+    height: 48px;
+    width: 48px;
+    animation: spiner 1s linear infinite;
+    @keyframes spiner {
+        0% {
+            rotate: 0deg;
+        }
+        100%{
+            rotate: 360deg;
+        }
+    }
+}
